@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Red Card, beer, Pullman, tex mex, local, margaritas, restaurant">
+    <meta name="description" content="Red Card Pub &amp; Grub. Serving average food to average folks since 2020. Pullman's local place for Tex-Mex, beer, margaritas, and a laid back atmosphere.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.0/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <title>Red Card Pub &amp; Grub</title>
+</head>
+<body>
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+
+            <!-- logo -->
+            <a href="/index.html" class="navbar-brand">
+                <img alt="Red Card Pub and Grub Logo" src="/img/redcard-logo-web.png">
+            </a>
+
+            <!-- for hamburger menu when screen is small -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- menu -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/menu.html" class="nav-link">Food &amp; Drink</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/events.html" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- landing image -->
+    <section class="text-center">
+        <img style="width: 100%; height: auto;" src="/img/red-card-pub-grub.webp" alt="Red Card Pub and Grub. Serving average food to average folks since 2020.">
+    </section>
+
+    <!-- main body text -->
+    <section>
+        <div class="container">
+            <h1 class="pt-2 pt-xl-5" style="font-family:rcbrand;">Come for the Tex Mex, Stay for the Atmosphere</h1>
+            <p style="text-align:justify;">Here at Red Card Pub &amp; Grub, we've got it all as long as you don't expect too much. We've got beer. We've got margaritas. We've got Tex-Mex. Have you ever heard of a whiskey-rita? Yeah, we've got that too. This is the kind of place you go to vent some steam after a long day at the office. A chill, no-frills atmosphere with chill, no-frills people. Does that sound good to you? Then come on in!</p>
+        </div>
+    </section>
+
+    <!-- call to action boxes -->
+    <section class="p-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md py-1 py-md-0">
+                    <div class="card bg-light" style="border:none;">
+                        <a href="/menu.html">
+                            <img class="img-fluid" src="/img/red-card-menu.webp" alt="Red Card Pub and Grub Menu">
+                        </a>
+                        <a class="link-dark" style="text-decoration:none;" href="/menu.html">
+                            <h2 class="pt-2" style="font-family:rcbrand;">Food &amp; Drink</h2>
+                        </a>
+                        <p class="text-start px-3">This is where you need to go if you're looking for our menu. It's got info on our rotational beer taps, our cocktails, and of course our food. It's a simple menu, but a good one.</p>
+                    </div>
+                </div>
+                <div class="col-md py-1 py-md-0">
+                    <div class="card bg-light" style="border:none;">
+                        <a href="/events.html">
+                            <img class="img-fluid" src="/img/red-card-events.webp" alt="Red Card Pub and Grub Events">
+                        </a>
+                        <a class="link-dark" style="text-decoration:none;" href="/events.html">
+                            <h2 class="pt-2" style="font-family:rcbrand;">Events</h2>
+                        </a>
+                        <p class="text-start px-3">Click the link above to get info on our events. We've got two big screen TVs ready to play the big games. We'll even roll one of them outside during nice weather so that you can watch on our patio.</p>
+                    </div>
+                </div>
+                <div class="col-md py-1 py-md-0">
+                    <div class="card bg-light" style="border:none;">
+                        <a href="/contact.html">
+                            <img class="img-fluid" src="/img/red-card-contact.webp" alt="Red Card Pub and Grub Contact">
+                        </a>
+                        <a class="link-dark" style="text-decoration:none;" href="/contact.html">
+                            <h2 class="pt-2" style="font-family:rcbrand;">Contact Us</h2>
+                        </a>
+                        <p class="text-start px-3">If you're looking to contact us for any reason, click here. You'll find information about our hours, our phone number, and even catering if you're curious about that.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- additional body text -->
+    <section>
+        <div class="container pb-5">
+            <h3 class="pt-2 pb-2 pt-xl-5" style="font-family:rcbrand;">Check out the Red Card Pub at 588 SE Bishop Blvd, Pullman, WA</h3>
+            <div class="row g-4">
+                <div class="col-md">
+                    <p style="text-align: justify;">Red Card Pub &amp; grub is located in the Edison Center, the building complex at the corner of Harvest Drive and Bishop Boulevard. We're open most Mondays thru Saturdays from 3pm-8pm, but hours can vary (sometimes we've got to run up to Spokane to get you all some fresh "hard-to-find" beers). For our most up to date hours by the day, visit our <a href="https://www.facebook.com/redcardpub/">Facebook</a> or <a href="https://www.instagram.com/redcardpub/?hl=en">Instagram</a> pages.</p>
+                    <img class="img-fluid w-50 d-none d-md-block" alt="Red Card Pub and Grub Logo" src="/img/redcard-logo-black.webp">
+                </div>
+                <div class="col-md">
+                    <div style="width:100%; height:400px;" id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white">
+        <div class="container">
+            <div class="d-md-flex justify-content-between">
+                <div class="w-md-25">
+                    <p class="lead">We'll see you soon!</p>
+                    <p class="text-start">
+                        <b>Hours</b><br>
+                        Mon-Sat: 3pm-8pm<br>
+                        <b>Phone</b><br>
+                        <a href="tel:5097151114">(509) 715-1114</a>
+                    </p>
+                </div>
+                <div class="d-none d-md-block px-3" style="border-left:1px solid #FFF; height:150px;"></div>
+                <div class="text-center">
+                    <h4 class="pt-3 pt-xl-0" style="font-family:rcbrand;">Follow us on social</h4><br>
+                    <a href="https://www.facebook.com/redcardpub/"><i class="bi bi-facebook h3 px-1"></i></a>
+                    <a href="https://www.instagram.com/redcardpub/?hl=en"><i class="bi bi-instagram h3 px-1"></i></a>
+                </div>
+                <div class="d-none d-md-block px-3" style="border-left:1px solid #FFF; height:150px;"></div>
+                <div class="pt-5 pt-md-0">
+                    <a href="/menu.html">Food &amp; Drink Menu</a><br>
+                    <a href="/events.html">Events</a><br>
+                    <a href="/about.html">About</a><br>
+                    <a href="/contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.0/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZGV2LWRldmluIiwiYSI6ImNsMXgzeXNjczJ5cnozZW1qdWhhenNlNnYifQ.g9-1xfJOxm3bxqDdTMJKZg';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-117.17609, 46.71502],
+            zoom: 17
+        });
+
+        // Create Marker and add to map
+        const redCard = new mapboxgl.Marker({ color: 'red' })
+            .setLngLat([-117.17609, 46.71502])
+            .addTo(map);
+    </script>
+</body>
+</html>
