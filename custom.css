@@ -3,8 +3,7 @@
     src: url("/fonts/chateaudegarage-webfont.woff");
 }
 
-mark {
+ul mark {
     background-color: rgba(190, 18, 18, 0.829);
     color: #fff;
-    /* why is this not working? */
 }
